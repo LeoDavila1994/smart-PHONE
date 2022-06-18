@@ -1,0 +1,127 @@
+/* Universal */
+
+html {
+    box-sizing: border-box;
+}
+  
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.bg-blue{
+    background-color: #957DAD;
+}
+
+.bg-cyan{
+    background-color: #4ADEDE;
+}
+
+.txt-blue{
+    color: #957DAD;
+}
+
+.txt-cyan{
+    color: #4ADEDE;
+}
+
+.border-blue{
+    border: 1px solid #957DAD;
+}
+
+.border-cyan{
+    border: 1px solid #4ADEDE;
+}
+
+/* Logo */
+
+a i img{
+    width: 2rem;
+}
+
+/* Menu Btn */
+
+.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: var(--bs-navbar-color);
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    transition: var(--bs-navbar-toggler-transition);
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 transparent;
+}
+
+/* Searcher Style */
+
+.btn{
+    border: 0;
+    border-radius: 0;
+    margin-left: -0.5rem;
+}
+
+.btn-outline-success {
+    --bs-btn-color: #4ADEDE;
+    --bs-btn-border-color: #4ADEDE;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #4ADEDE;
+    --bs-btn-hover-border-color: #4ADEDE;
+    --bs-btn-focus-shadow-rgb: 74, 222, 222;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #4ADEDE;
+    --bs-btn-active-border-color: #4ADEDE;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #4ADEDE;
+    --bs-btn-disabled-bg: transparent;
+    --bs-gradient: none;
+}
+
+/* Cards */
+
+.border-up{
+    border-top: 1px solid #957DAD;
+}
+
+.btn-card{
+    background-color: #4ADEDE;
+    padding: 0.5rem 1rem;   
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 90px;
+    margin: auto;    
+}
+
+.btn-card:hover{
+    color: #957DAD;
+}
+
+/* Foot */
+
+footer{
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.479);
+    margin-top: 7rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+.size-correct{
+    width: 30px;
+    height: 30px;
+}
+
+
