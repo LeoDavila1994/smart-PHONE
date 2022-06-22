@@ -3,7 +3,7 @@
 html {
     box-sizing: border-box;
 }
-  
+
 *, *::before, *::after {
     box-sizing: inherit;
 }
@@ -83,20 +83,261 @@ a i img{
 
 /* Cards */
 
+.img1-container{
+    width: 262px;
+    height: 200px;
+    background-image: url(./assets/image\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 10px 0;
+}
+
+.img2-container{
+    width: 262px;
+    height: 200px;
+    background-image: url(./assets/image\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 10px 0;
+}
+
+.img3-container{
+    width: 262px;
+    height: 200px;
+    background-image: url(./assets/image\ 4.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 10px 0;
+}
+
+.img4-container{
+    width: 262px;
+    height: 200px;
+    background-image: url(./assets/image\ 13.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 10px 0;
+}
+
+.img5-container{
+    width: 262px;
+    height: 200px;
+    background-image: url(./assets/image\ 14.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 10px 0;
+}
+
+.img6-container{
+    width: 262px;
+    height: 200px;
+    background-image: url(./assets/image\ 15.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 10px 0;
+}
+
+.img7-container{
+    width: 262px;
+    height: 200px;
+    background-image: url(./assets/image\ 4.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 10px 0;
+}
+
+.img8-container{
+    width: 262px;
+    height: 200px;
+    background-image: url(./assets/image\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 10px 0;
+}
+
+.img9-container{
+    width: 262px;
+    height: 200px;
+    background-image: url(./assets/image\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 10px 0;
+}
+
+.img10-container{
+    width: 262px;
+    height: 200px;
+    background-image: url(./assets/HuaweiMate30PRO.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 10px 0;
+}
+
+.img11-container{
+    width: 262px;
+    height: 200px;
+    background-image: url(./assets/HuaweiP40.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 10px 0;
+}
+
+.img12-container{
+    width: 262px;
+    height: 200px;
+    background-image: url(./assets/HuaweiP50PRO.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 10px 0;
+}
+
+.img13-container{
+    width: 262px;
+    height: 200px;
+    background-image: url(./assets/LGK41s.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 10px 0;
+    margin: 10px 0;
+}
+
+.img14-container{
+    width: 262px;
+    height: 200px;
+    background-image: url(./assets/LGK51S.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 10px 0;
+}
+
+.img15-container{
+    width: 262px;
+    height: 200px;
+    background-image: url(./assets/LGK62.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 10px 0;
+}
+
+.img16-container{
+    width: 262px;
+    height: 200px;
+    background-image: url(./assets/LGVelvet128GB.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 10px 0;
+}
+
+.img17-container{
+    width: 262px;
+    height: 200px;
+    background-image: url(./assets/MotoG60s.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 10px 0;
+}
+
+.img18-container{
+    width: 262px;
+    height: 200px;
+    background-image: url(./assets/MotorolaEdge20PRO.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 10px 0;
+}
+
+.img19-container{
+    width: 262px;
+    height: 200px;
+    background-image: url(./assets/MotorolaMotoG200.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 10px 0;
+}
+
+.img20-container{
+    width: 262px;
+    height: 200px;
+    background-image: url(./assets/xiaomiPOCOX4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 10px 0;
+}
+
+.img21-container{
+    width: 262px;
+    height: 200px;
+    background-image: url(./assets/xiaomiReadmi9A.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 10px 0;
+}
+
+.img22-container{
+    width: 262px;
+    height: 200px;
+    background-image: url(./assets/xiaomiReadmi9C.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 10px 0;
+}
+
+.img23-container{
+    width: 262px;
+    height: 200px;
+    background-image: url(./assets/xiaomiReadmiNote10.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 10px 0;
+}
+
+.img24-container{
+    width: 262px;
+    height: 200px;
+    background-image: url(./assets/xiaomiReadmiNOTE11.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 10px 0;
+}
+
 .border-up{
     border-top: 1px solid #957DAD;
 }
 
 .btn-card{
     background-color: #4ADEDE;
-    padding: 0.5rem 1rem;   
+    padding: 0.5rem 1rem;
     border-radius: 4px;
     text-decoration: none;
     color: white;
     display: flex;
     justify-content: center;
     width: 90px;
-    margin: auto;    
+    margin: auto;
 }
 
 .btn-card:hover{
