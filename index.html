@@ -9,6 +9,8 @@
     <title>e-comerce</title>
 </head>
 <body>
+
+  <!-- Header -->
     <header>
         <nav class="navbar navbar-expand-lg bg-blue">
             <div class="container-fluid">
@@ -25,15 +27,42 @@
                         <ul class="dropdown-menu mt-2" aria-labelledby="navbarDropdown">
                           <li><a class="dropdown-item" href="#">SAMSUNG</a></li>
                           <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">APPLE</a></li>
+                          <li><a class="dropdown-item" href="#">HUAWEI</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">LG</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">MOTOROLA</a></li>
                           <li><hr class="dropdown-divider"></li>
                           <li><a class="dropdown-item" href="#">XIAOMI</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">HUAWEI</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active me-4" aria-current="page" href="#"><img src="./assets/user 2.svg"></a>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                          <img src="./assets/user 2.svg">
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Inicia seción:</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <p>Inicia con google</p>
+                              </div>
+                              <div class="modal-body">
+                                <p>Inicia con Facebook</p>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link me-4" href="#"><img src="./assets/heart 1.svg"></a>
@@ -47,12 +76,13 @@
         </nav>
     </header>
 
+    <!-- Container -->
+
         <div class="container">
 
+          <!-- Searcher -->
 
             <div class="row justify-content-center">
-
-                <!-- Searcher -->
 
                 <div class="col-md-8 col-sm-12">
                     <form class="d-flex" role="search">
@@ -63,299 +93,14 @@
 
             </div>
 
-            <div class="row d-flex flex-wrap justify-content-center gap-5">
+            <!-- Products geerated -->
 
-              <!-- Producto 1 -->
-
-              <div class="card border-blue" style="width: 18rem;">
-                  <div class="img1-container"></div>
-                  <div class="card-body border-up">
-                    <h6 class="card-title fs-6 fw-bold text-center">SAMSUNG</h6>
-                    <p class="card-text text-secondary fw-bold fs-6 text-center">Galaxy s52</p>
-                    <p class="card-text fw-bold text-center fs-4">Precio: $5,200.°°</p>
-                    <a href="#" class="btn-card fw-bold">Add +</a>
-                  </div>
-              </div>
-
-              <!-- Producto 2 -->
-
-              <div class="card border-blue" style="width: 18rem;">
-                <div class="img2-container"></div>
-                <div class="card-body border-up">
-                  <h6 class="card-title fs-6 fw-bold text-center">SAMSUNG</h6>
-                  <p class="card-text text-secondary fw-bold fs-6 text-center">Galaxy A12</p>
-                  <p class="card-text fw-bold text-center fs-4">Precio: $3,900.°°</p>
-                  <a href="#" class="btn-card fw-bold">Add +</a>
-                </div>
-              </div>
-
-              <!-- Producto 3 -->
-
-              <div class="card border-blue" style="width: 18rem;">
-                <div class="img3-container"></div class="img-container">
-                <div class="card-body border-up">
-                  <h6 class="card-title fs-6 fw-bold text-center">SAMSUNG</h6>
-                  <p class="card-text text-secondary fw-bold fs-6 text-center">Galaxy A32</p>
-                  <p class="card-text fw-bold text-center fs-4">Precio: $7,000.°°</p>
-                  <a href="#" class="btn-card fw-bold">Add +</a>
-                </div>
-              </div>
-
-              <!-- Producto 4 -->
-
-              <div class="card border-blue" style="width: 18rem;">
-                <div class="img4-container"></div>
-                <div class="card-body border-up">
-                  <h6 class="card-title fs-6 fw-bold text-center">SAMSUNG</h6>
-                  <p class="card-text text-secondary fw-bold fs-6 text-center">Galaxy A01</p>
-                  <p class="card-text fw-bold text-center fs-4">Precio: $4,500.°°</p>
-                  <a href="#" class="btn-card fw-bold">Add +</a>
-                </div>
-              </div>
-
-              <!-- Producto 5 -->
-
-              <div class="card border-blue" style="width: 18rem;">
-                <div class="img5-container"></div>
-                <div class="card-body border-up">
-                  <h6 class="card-title fs-6 fw-bold text-center">SAMSUNG</h6>
-                  <p class="card-text text-secondary fw-bold fs-6 text-center">Galaxy A70</p>
-                  <p class="card-text fw-bold text-center fs-4">Precio: $5,300.°°</p>
-                  <a href="#" class="btn-card fw-bold">Add +</a>
-                </div>
-              </div>
-
-              <!-- Producto 6 -->
-
-              <div class="card border-blue" style="width: 18rem;">
-                <div class="img6-container"></div>
-                <div class="card-body border-up">
-                  <h6 class="card-title fs-6 fw-bold text-center">SAMSUNG</h6>
-                  <p class="card-text text-secondary fw-bold fs-6 text-center">Galaxy Z fold 3</p>
-                  <p class="card-text fw-bold text-center fs-4">Precio: $19,800.°°</p>
-                  <a href="#" class="btn-card fw-bold">Add +</a>
-                </div>
-              </div>
-
-              <!-- Producto 7 -->
-
-              <div class="card border-blue" style="width: 18rem;">
-                <div class="img7-container"></div>
-                <div class="card-body border-up">
-                  <h6 class="card-title fs-6 fw-bold text-center">SAMSUNG</h6>
-                  <p class="card-text text-secondary fw-bold fs-6 text-center">Galaxy s21</p>
-                  <p class="card-text fw-bold text-center fs-4">Precio: $16,500.°°</p>
-                  <a href="#" class="btn-card fw-bold">Add +</a>
-                </div>
-              </div>
-
-              <!-- Producto 8 -->
-
-              <div class="card border-blue" style="width: 18rem;">
-                <div class="img8-container"></div>
-                <div class="card-body border-up">
-                  <h6 class="card-title fs-6 fw-bold text-center">SAMSUNG</h6>
-                  <p class="card-text text-secondary fw-bold fs-6 text-center">Galaxy A31</p>
-                  <p class="card-text fw-bold text-center fs-4">Precio: $2,100.°°</p>
-                  <a href="#" class="btn-card fw-bold">Add +</a>
-                </div>
-              </div>
-
-              <!-- Producto 9 -->
-
-              <div class="card border-blue" style="width: 18rem;">
-                <div class="img9-container"></div>
-                <div class="card-body border-up">
-                  <h6 class="card-title fs-6 fw-bold text-center">SAMSUNG</h6>
-                  <p class="card-text text-secondary fw-bold fs-6 text-center">Galaxy A40</p>
-                  <p class="card-text fw-bold text-center fs-4">Precio: $5,700.°°</p>
-                  <a href="#" class="btn-card fw-bold">Add +</a>
-                </div>
-              </div>
-
-              <!-- Producto 10 -->
-
-              <div class="card border-blue" style="width: 18rem;">
-                <div class="img10-container"></div>
-                <div class="card-body border-up">
-                  <h6 class="card-title fs-6 fw-bold text-center">HUAWEI</h6>
-                  <p class="card-text text-secondary fw-bold fs-6 text-center">Mate 30 PRO</p>
-                  <p class="card-text fw-bold text-center fs-4">Precio: $8,250.°°</p>
-                  <a href="#" class="btn-card fw-bold">Add +</a>
-                </div>
-              </div>
-
-              <!-- Producto 11 -->
-
-              <div class="card border-blue" style="width: 18rem;">
-                <div class="img11-container"></div>
-                <div class="card-body border-up">
-                  <h6 class="card-title fs-6 fw-bold text-center">HUAWEI</h6>
-                  <p class="card-text text-secondary fw-bold fs-6 text-center">P40</p>
-                  <p class="card-text fw-bold text-center fs-4">Precio: $7,690.°°</p>
-                  <a href="#" class="btn-card fw-bold">Add +</a>
-                </div>
-              </div>
-
-              <!-- Producto 12 -->
-
-              <div class="card border-blue" style="width: 18rem;">
-                <div class="img12-container"></div>
-                <div class="card-body border-up">
-                  <h6 class="card-title fs-6 fw-bold text-center">HUAWEI</h6>
-                  <p class="card-text text-secondary fw-bold fs-6 text-center">P50 PRO</p>
-                  <p class="card-text fw-bold text-center fs-4">Precio: $9,720.°°</p>
-                  <a href="#" class="btn-card fw-bold">Add +</a>
-                </div>
-              </div>
-
-              <!-- Producto 13 -->
-
-              <div class="card border-blue" style="width: 18rem;">
-                <div class="img13-container"></div>
-                <div class="card-body border-up">
-                  <h6 class="card-title fs-6 fw-bold text-center">LG</h6>
-                  <p class="card-text text-secondary fw-bold fs-6 text-center">K41 S</p>
-                  <p class="card-text fw-bold text-center fs-4">Precio: $4,250.°°</p>
-                  <a href="#" class="btn-card fw-bold">Add +</a>
-                </div>
-              </div>
-
-              <!-- Producto 14 -->
-
-              <div class="card border-blue" style="width: 18rem;">
-                <div class="img14-container"></div>
-                <div class="card-body border-up">
-                  <h6 class="card-title fs-6 fw-bold text-center">LG</h6>
-                  <p class="card-text text-secondary fw-bold fs-6 text-center">K51 S</p>
-                  <p class="card-text fw-bold text-center fs-4">Precio: $5,100.°°</p>
-                  <a href="#" class="btn-card fw-bold">Add +</a>
-                </div>
-              </div>
-
-              <!-- Producto 15 -->
-
-              <div class="card border-blue" style="width: 18rem;">
-                <div class="img15-container"></div>
-                <div class="card-body border-up">
-                  <h6 class="card-title fs-6 fw-bold text-center">LG</h6>
-                  <p class="card-text text-secondary fw-bold fs-6 text-center">K62</p>
-                  <p class="card-text fw-bold text-center fs-4">Precio: $5,750.°°</p>
-                  <a href="#" class="btn-card fw-bold">Add +</a>
-                </div>
-              </div>
-
-              <!-- Producto 16 -->
-
-              <div class="card border-blue" style="width: 18rem;">
-                <div class="img16-container"></div>
-                <div class="card-body border-up">
-                  <h6 class="card-title fs-6 fw-bold text-center">LG</h6>
-                  <p class="card-text text-secondary fw-bold fs-6 text-center">Velvet</p>
-                  <p class="card-text fw-bold text-center fs-4">Precio: $6,350.°°</p>
-                  <a href="#" class="btn-card fw-bold">Add +</a>
-                </div>
-              </div>
-
-              <!-- Producto 17 -->
-
-              <div class="card border-blue" style="width: 18rem;">
-                <div class="img17-container"></div>
-                <div class="card-body border-up">
-                  <h6 class="card-title fs-6 fw-bold text-center">MOTOROLA</h6>
-                  <p class="card-text text-secondary fw-bold fs-6 text-center">Moto G60s</p>
-                  <p class="card-text fw-bold text-center fs-4">Precio: $4,350.°°</p>
-                  <a href="#" class="btn-card fw-bold">Add +</a>
-                </div>
-              </div>
-
-              <!-- Producto 18 -->
-
-              <div class="card border-blue" style="width: 18rem;">
-                <div class="img18-container"></div>
-                <div class="card-body border-up">
-                  <h6 class="card-title fs-6 fw-bold text-center">MOTOROLA</h6>
-                  <p class="card-text text-secondary fw-bold fs-6 text-center">Edge 20PRO</p>
-                  <p class="card-text fw-bold text-center fs-4">Precio: $8,500.°°</p>
-                  <a href="#" class="btn-card fw-bold">Add +</a>
-                </div>
-              </div>
-
-              <!-- Producto 19 -->
-
-              <div class="card border-blue" style="width: 18rem;">
-                <div class="img19-container"></div>
-                <div class="card-body border-up">
-                  <h6 class="card-title fs-6 fw-bold text-center">MOTOROLA</h6>
-                  <p class="card-text text-secondary fw-bold fs-6 text-center">Moto G200</p>
-                  <p class="card-text fw-bold text-center fs-4">Precio: $6,500.°°</p>
-                  <a href="#" class="btn-card fw-bold">Add +</a>
-                </div>
-              </div>
-
-              <!-- Producto 20 -->
-
-              <div class="card border-blue" style="width: 18rem;">
-                <div class="img20-container"></div>
-                <div class="card-body border-up">
-                  <h6 class="card-title fs-6 fw-bold text-center">XIAOMI</h6>
-                  <p class="card-text text-secondary fw-bold fs-6 text-center">Poco X4</p>
-                  <p class="card-text fw-bold text-center fs-4">Precio: $4,720.°°</p>
-                  <a href="#" class="btn-card fw-bold">Add +</a>
-                </div>
-              </div>
-
-              <!-- Producto 21 -->
-
-              <div class="card border-blue" style="width: 18rem;">
-                <div class="img21-container"></div>
-                <div class="card-body border-up">
-                  <h6 class="card-title fs-6 fw-bold text-center">XIAOMI</h6>
-                  <p class="card-text text-secondary fw-bold fs-6 text-center">Readmi 9A</p>
-                  <p class="card-text fw-bold text-center fs-4">Precio: $5,300.°°</p>
-                  <a href="#" class="btn-card fw-bold">Add +</a>
-                </div>
-              </div>
-
-              <!-- Producto 22 -->
-
-              <div class="card border-blue" style="width: 18rem;">
-                <div class="img22-container"></div>
-                <div class="card-body border-up">
-                  <h6 class="card-title fs-6 fw-bold text-center">XIAOMI</h6>
-                  <p class="card-text text-secondary fw-bold fs-6 text-center">Readmi 9C</p>
-                  <p class="card-text fw-bold text-center fs-4">Precio: $5,750.°°</p>
-                  <a href="#" class="btn-card fw-bold">Add +</a>
-                </div>
-              </div>
-
-              <!-- Producto 23 -->
-
-              <div class="card border-blue" style="width: 18rem;">
-                <div class="img23-container"></div>
-                <div class="card-body border-up">
-                  <h6 class="card-title fs-6 fw-bold text-center">XIAOMI</h6>
-                  <p class="card-text text-secondary fw-bold fs-6 text-center">Note 10</p>
-                  <p class="card-text fw-bold text-center fs-4">Precio: $6,900.°°</p>
-                  <a href="#" class="btn-card fw-bold">Add +</a>
-                </div>
-              </div>
-
-              <!-- Producto 24 -->
-
-              <div class="card border-blue" style="width: 18rem;">
-                <div class="img24-container"></div>
-                <div class="card-body border-up">
-                  <h6 class="card-title fs-6 fw-bold text-center">XIAOMI</h6>
-                  <p class="card-text text-secondary fw-bold fs-6 text-center">Note 11</p>
-                  <p class="card-text fw-bold text-center fs-4">Precio: $8,200.°°</p>
-                  <a href="#" class="btn-card fw-bold">Add +</a>
-                </div>
-              </div>
-
+            <div class="row d-flex flex-wrap justify-content-center gap-5" id="products">
             </div>
 
         </div>
+
+        <!-- Footer -->
 
         <footer>
             <div><a href="facebook.com"><img src="./assets/akar-icons_facebook-fill.svg" class="me-2"></a></div>
@@ -363,12 +108,6 @@
             <div><a href="whatsapp.com"></a><img src="./assets/whatsapp.png" class="me-2 size-correct"></div>
             <div><a href="gmail.com"></a><img src="./assets/email.png" class="me-2 size-correct"></div>
         </footer>
-
-
-
-
-
-
 
 
 
